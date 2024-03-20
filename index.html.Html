@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.CSS">
+</head>
+<body background="latar belakang jpg.jpg">
+    <div class="container">
+        <header>
+        <h1>CV Saya</h1>
+<img src="foto profile.jpg"  class="img_profile" alt="img_profile" 
+onclick="alert('Hallo nama saya Ajeng Delia Eriska.')">
+            <p>Ajeng Delia Eriska</p>
+        </header>
+        <section>
+            <h2>Tentang Saya</h2>
+            <p>Saya merupakan Mahasiswi Universitas Ma'soem  jurusan Komputerisasi Akuntansi Semester 4 , Saya juga merupakan seorang duta pariwisata kabupaten sumedang menjabat pada tahun 2023-2024.</p>
+        </section>
+        <section>
+            <h2>Pendidikan</h2>
+            <table border="5" align="center">
+                <tr> <th>Nomor</th> <th>Tahun</th> <th>sekolah</th> </tr>
+                <tr align="center"> <td>01</td> <td>2011-2017</td> <td>SD Negri Malangnengah  II </td> </tr>
+                <tr align="center"> <td>02</td> <td>2017-2019</td> <td>SMPN 1 Cisarua</td> </tr>
+                <tr align="center"> <td>03</td> <td>2019-2022</td><td>SMKN 1 Sumedang</td> </tr>
+                <tr align="center"> <td>04</td> <td>2022-2025</td><td>Universitas Ma'soem</td> </tr>
+                </table>
+        </section>
+        <section>
+            <h2>Pengalaman</h2>
+            <p>Menjabat sebagai Duta Pariwisata  (2023 - 2024)</p>
+        </section>
+            <div class="container">
+            <div class="portfolio">
+    
+            <div class="portfolio-item"align="left"onclick="togglePortfolioDetails(this)">
+            <h2>Kontak</h2>
+                <div class="details">
+                    <p>Email: ajengdeliaeriskaa@gmail.com<br>Telepon: 087716389387</p>
+                 </div>
+            </div>
+            <h2 class="text-center mb-4">Buku Tamu</h2>
+            <form id="guestbookForm">
+                <div class="form-group">
+                    <label for="name">Nama:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="comment">Komentar:</label>
+                    <textarea class="form-control" id="comment" name="comment" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <script src="script.js"></script>
+
+    </div>
+</body>
+</html>
